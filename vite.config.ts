@@ -10,5 +10,5 @@ export default defineConfig({
     dedupe: ["react", "react-dom"],
   },
   build: { sourcemap: false, target: "esnext", minify: "esbuild" },
-  server: { host: true, port: 5173 },
+  server: { host: true, port: 3000 },
 });
